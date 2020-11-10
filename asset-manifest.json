@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/telebyteweb/static/css/main.2d7fc3d5.chunk.css",
+    "main.css": "/telebyteweb/static/css/main.6799bdf9.chunk.css",
     "main.js": "/telebyteweb/static/js/main.75a5d308.chunk.js",
     "main.js.map": "/telebyteweb/static/js/main.75a5d308.chunk.js.map",
     "runtime-main.js": "/telebyteweb/static/js/runtime-main.01f90255.js",
@@ -10,14 +10,14 @@
     "static/js/3.d2a99a91.chunk.js": "/telebyteweb/static/js/3.d2a99a91.chunk.js",
     "static/js/3.d2a99a91.chunk.js.map": "/telebyteweb/static/js/3.d2a99a91.chunk.js.map",
     "index.html": "/telebyteweb/index.html",
-    "static/css/main.2d7fc3d5.chunk.css.map": "/telebyteweb/static/css/main.2d7fc3d5.chunk.css.map",
+    "static/css/main.6799bdf9.chunk.css.map": "/telebyteweb/static/css/main.6799bdf9.chunk.css.map",
     "static/js/2.65dc5636.chunk.js.LICENSE.txt": "/telebyteweb/static/js/2.65dc5636.chunk.js.LICENSE.txt",
     "static/media/Main.css": "/telebyteweb/static/media/material03.26445787.png"
   },
   "entrypoints": [
     "static/js/runtime-main.01f90255.js",
     "static/js/2.65dc5636.chunk.js",
-    "static/css/main.2d7fc3d5.chunk.css",
+    "static/css/main.6799bdf9.chunk.css",
     "static/js/main.75a5d308.chunk.js"
   ]
 }
