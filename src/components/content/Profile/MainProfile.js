@@ -1,7 +1,6 @@
-import React, { Component, useEffect, useState } from "react";
+import React, { Component } from "react";
 import firebase from "../../../firebase/Firebase";
 import { BubbleAnimation } from "../Anim/Bubbles";
-import Spinner from "../Loader/Spinner";
 
 class MainHomeContent extends Component {
 	constructor() {

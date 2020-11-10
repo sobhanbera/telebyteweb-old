@@ -3,7 +3,6 @@ import ChatRecieve from "./ChatRecieve";
 import ChatSend from "./ChatSend";
 import firebase from "../../../../firebase/Firebase";
 import Spinner from "../../Loader/Spinner";
-import jsonData from "./TemporaryChatData";
 
 class FullChatList extends Component {
 	constructor() {

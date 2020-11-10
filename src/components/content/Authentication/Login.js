@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { useHistory } from "react-router-dom";
 import firebase from "../../../firebase/Firebase";
 import Spinner from "../Loader/Spinner";
 

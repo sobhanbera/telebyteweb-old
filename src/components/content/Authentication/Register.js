@@ -109,27 +109,23 @@ class Register extends Component {
 											db.settings({
 												timestampsInSnapshots: true,
 											});
-											const userRef = db
-												.collection("Users")
-												.add({
-													email: this.state.email,
-													fullname: this.state
-														.fullname,
-													username: this.state
-														.username,
-													profileImg: "",
-													coverImg: "",
-													phoneNo: "",
-													status: "",
-													public: "",
-													info: "",
-													social: {
-														github: "",
-														linkedin: "",
-														facebook: "",
-														instagram: "",
-													},
-												});
+											db.collection("Users").add({
+												email: this.state.email,
+												fullname: this.state.fullname,
+												username: this.state.username,
+												profileImg: "",
+												coverImg: "",
+												phoneNo: "",
+												status: "",
+												public: "",
+												info: "",
+												social: {
+													github: "",
+													linkedin: "",
+													facebook: "",
+													instagram: "",
+												},
+											});
 											firebase
 												.auth()
 												.currentUser.updateProfile({

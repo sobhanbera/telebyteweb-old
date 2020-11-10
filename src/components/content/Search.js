@@ -2,17 +2,16 @@ import React, { useEffect, useState } from "react";
 import Authentication from "./Authentication/Authentication";
 import Footer from "./About/Footer";
 import firebase from "../../firebase/Firebase";
-import MainHomeContent from "./Home/MainHomeContent";
 import Heading from "./About/Heading";
 import ProfileContent from "./Search/MainSearch";
 
 function Search() {
 	const [user, setUser] = useState("");
 
-	const logOut = () => {
-		firebase.auth().signOut();
-		window.location.reload(false);
-	};
+	// const logOut = () => {
+	// 	firebase.auth().signOut();
+	// 	window.location.reload(false);
+	// };
 
 	const reloadFuntion = () => {
 		firebase.auth().onAuthStateChanged((user) => {

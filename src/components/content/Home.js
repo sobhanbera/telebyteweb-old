@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Authentication from "./Authentication/Authentication";
 import Footer from "./About/Footer";
 import firebase from "../../firebase/Firebase";
@@ -8,10 +8,10 @@ import Heading from "./About/Heading";
 function Home() {
 	const [user, setUser] = useState("");
 
-	const logOut = () => {
-		firebase.auth().signOut();
-		window.location.reload(false);
-	};
+	// const logOut = () => {
+	// 	firebase.auth().signOut();
+	// 	window.location.reload(false);
+	// };
 
 	const reloadFuntion = () => {
 		firebase.auth().onAuthStateChanged((user) => {

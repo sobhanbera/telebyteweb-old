@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import firebase from "../../../firebase/Firebase";
 import ChatDetails from "./ChatDetails";
 import ChatsAvailableCard from "./ChatsAvailableCard";
 

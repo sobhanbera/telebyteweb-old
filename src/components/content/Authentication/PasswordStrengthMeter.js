@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import zxcvbn from "zxcvbn";
 // import "./PasswordStrengthMeter.css";
 

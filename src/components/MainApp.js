@@ -15,15 +15,33 @@ class MainApp extends Component {
 			<div>
 				<Header />
 				<main className="mainContent">
-					<Route exact path="/about" component={AboutSection} />
+					<Route
+						exact
+						path="/telebyteweb/about"
+						component={AboutSection}
+					/>
 
-					<Route exact path="/search" component={Search} />
+					<Route
+						exact
+						path="/telebyteweb/search"
+						component={Search}
+					/>
 
-					<Route exact path="/profile" component={Profile} />
+					<Route
+						exact
+						path="/telebyteweb/profile"
+						component={Profile}
+					/>
 
-					<Route exact path="/chats" component={ChatTab} />
+					<Route
+						exact
+						path="/telebyteweb/chats"
+						component={ChatTab}
+					/>
 
-					<Route exact path="/home" component={Home} />
+					<Route exact path="/telebyteweb/home" component={Home} />
+
+					<Route exact path="/telebyteweb" component={Home} />
 
 					<Route exact path="/" component={Home} />
 				</main>

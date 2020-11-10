@@ -135,8 +135,8 @@ function Cards() {
 							etc. You can find the source code here{" "}
 							<a
 								className="ahref"
+								href="https://github.com/SobhanBera/telebyteweb"
 								target="_blank"
-								href="https://github.com/SobhanBera"
 							>
 								GitHub Repo.
 							</a>
@@ -154,8 +154,8 @@ function Cards() {
 							Stay tuned with me in{" "}
 							<a
 								className="ahref"
+								href="https://github.com/SobhanBera/telebyteweb"
 								target="_blank"
-								href="https://github.com/SobhanBera"
 							>
 								GitHub Repo
 							</a>{" "}

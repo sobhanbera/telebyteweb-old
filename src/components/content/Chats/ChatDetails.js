@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from "react";
+import React, { Component } from "react";
 import firebase from "../../../firebase/Firebase";
 import FullChatList from "./ChatingCards/FullChatList";
 
@@ -67,6 +67,7 @@ class ChatDetails extends Component {
 						<img
 							src={this.props.image}
 							className="chats-avail-img"
+							alt="twbus"
 						/>
 					</div>
 					<div className="chats-avail-detail-holder">

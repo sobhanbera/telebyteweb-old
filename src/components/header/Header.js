@@ -30,7 +30,10 @@ const Header = () => {
 		<nav className="navbar">
 			<ul className="navbar-nav">
 				<li class="logo">
-					<a href="#" class="nav-link">
+					<a
+						href="https://https://sobhanbera.github.io/telebyteweb"
+						class="nav-link"
+					>
 						<span class="link-text logo-text">Telebyte</span>
 						{/* <svg
 							aria-hidden="true"
