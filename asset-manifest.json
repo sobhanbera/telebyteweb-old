@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/telebyteweb/static/css/main.fff4e609.chunk.css",
+    "main.js": "/telebyteweb/static/js/main.3fbf7c52.chunk.js",
+    "main.js.map": "/telebyteweb/static/js/main.3fbf7c52.chunk.js.map",
+    "runtime-main.js": "/telebyteweb/static/js/runtime-main.01f90255.js",
+    "runtime-main.js.map": "/telebyteweb/static/js/runtime-main.01f90255.js.map",
+    "static/js/2.a9d8f466.chunk.js": "/telebyteweb/static/js/2.a9d8f466.chunk.js",
+    "static/js/2.a9d8f466.chunk.js.map": "/telebyteweb/static/js/2.a9d8f466.chunk.js.map",
+    "static/js/3.d2a99a91.chunk.js": "/telebyteweb/static/js/3.d2a99a91.chunk.js",
+    "static/js/3.d2a99a91.chunk.js.map": "/telebyteweb/static/js/3.d2a99a91.chunk.js.map",
+    "index.html": "/telebyteweb/index.html",
+    "static/css/main.fff4e609.chunk.css.map": "/telebyteweb/static/css/main.fff4e609.chunk.css.map",
+    "static/js/2.a9d8f466.chunk.js.LICENSE.txt": "/telebyteweb/static/js/2.a9d8f466.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/telebyteweb/static/media/material03.26445787.png",
+    "static/media/abstract_planet.060e9ebe.png": "/telebyteweb/static/media/abstract_planet.060e9ebe.png",
+    "static/media/logo.103b5fa1.svg": "/telebyteweb/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01f90255.js",
+    "static/js/2.a9d8f466.chunk.js",
+    "static/css/main.fff4e609.chunk.css",
+    "static/js/main.3fbf7c52.chunk.js"
+  ]
+}
