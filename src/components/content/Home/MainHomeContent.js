@@ -62,12 +62,18 @@ class MainHomeContent extends Component {
 						<div className="main-menu">
 							<ul>
 								<li>
-									<a className="main-a" href="/home">
+									<a
+										className="main-a"
+										href="/telebyteweb/home"
+									>
 										Home
 									</a>
 								</li>
 								<li>
-									<a className="main-a" href="/chats">
+									<a
+										className="main-a"
+										href="/telebyteweb/chats"
+									>
 										Chats
 									</a>
 								</li>
@@ -101,7 +107,7 @@ class MainHomeContent extends Component {
 									</p>
 									<p className="banner-button">
 										<a
-											href="/chats"
+											href="/telebyteweb/chats"
 											className="banner-button-a"
 										>
 											Start Chating
