@@ -20,8 +20,6 @@ class FullChatList extends Component {
 				this.setState({
 					username: user.displayName,
 				});
-				// clearInterval(userTimer);
-				// return;
 			}
 			// console.log(this.state.username);
 		}, 2000);

@@ -121,7 +121,12 @@ function Cards() {
 							You can chat with anybody in the server in only in a
 							public group available. This version does not
 							contains any custom room creation or private room
-							creation.
+							creation.{" "}
+							<p style={{ color: "#f44" }}>
+								Note: Please don't refresh any page for better
+								expreience since exact routing is not available
+								yet.
+							</p>
 						</p>
 					</div>
 				</div>

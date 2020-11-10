@@ -80,7 +80,7 @@ class Login extends Component {
 	handleChange(event) {
 		if (event.target.name === "email") {
 			this.setState({
-				email: event.target.value,
+				email: `${event.target.value}`.trim(),
 			});
 			console.log(this.state.email);
 		}
@@ -100,7 +100,6 @@ class Login extends Component {
 					onChange={this.handleChange}
 					type="email"
 					name="email"
-					autoComplete="off"
 					placeholder="Email*"
 					className="login-email-input login-input"
 				/>
@@ -108,7 +107,6 @@ class Login extends Component {
 					onChange={this.handleChange}
 					type="password"
 					name="password"
-					autoComplete="off"
 					placeholder="Password*"
 					className="login-pass-input login-input"
 				/>

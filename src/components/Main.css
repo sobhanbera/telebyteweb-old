@@ -480,9 +480,15 @@ h2 {
 
 .formContent {
 	display: flex;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	align-items: center;
 	justify-content: center;
+}
+
+@media (max-width: 1200px) {
+	.formContent {
+		flex-direction: column-reverse;
+	}
 }
 
 .login,

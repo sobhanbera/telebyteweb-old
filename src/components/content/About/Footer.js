@@ -9,12 +9,22 @@ function Footer() {
 				<p>
 					Welcome to Telebyte you can get the free source code of this
 					website here -{" "}
-					<a className="ahref" href="https://github.com/SobhanBera">
+					<a
+						className="ahref"
+						href="https://github.com/SobhanBera/telebyteweb"
+					>
 						GitHub Repo
 					</a>
-					. You can contribute or use the code for your projects.
-					Explore the website chat with other in public groups. More
-					Updates Comming Soon. Thanks For Visiting.
+					. You can contribute or use the code for your projects. I
+					doesn't store any type of important user data like password
+					in the database. Explore the website and chat with other in
+					public group(Currently one). More Updates Comming Soon.
+					Thanks For Visiting.
+					<br />
+					<br />
+					This website contains many intentional bugs which are in
+					development. But, If you found any typo, any bug in this
+					website please contact me.
 				</p>
 				{/* <div className="social">
 					<a href="#">
@@ -58,7 +68,9 @@ function Footer() {
 							<a href="https://github.com/SobhanBera">GitHub</a>
 						</li>
 						<li>
-							<a href="https://github.com/SobhanBera">Project</a>
+							<a href="https://github.com/SobhanBera/telebyteweb">
+								Project
+							</a>
 						</li>
 						<li>
 							<a href="mailto:sobhanbera258@gmail.com">E-Mail</a>

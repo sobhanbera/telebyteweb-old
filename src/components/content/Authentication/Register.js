@@ -21,6 +21,7 @@ class Register extends Component {
 	}
 
 	registerUser() {
+		console.log(this.state);
 		let dataIsValid = true;
 
 		if (
@@ -172,9 +173,15 @@ class Register extends Component {
 
 	handleChange(event) {
 		const { name, value } = event.target;
-		this.setState({
-			[name]: value,
-		});
+		if (name === "email" || name === "username" || name === "fullname") {
+			this.setState({
+				[name]: `${value}`.trim().trim(),
+			});
+		} else if (name === "password") {
+			this.setState({
+				password: value,
+			});
+		}
 	}
 
 	render() {
@@ -185,7 +192,7 @@ class Register extends Component {
 					name="fullname"
 					onChange={this.handleChange}
 					type="text"
-					autoComplete="off"
+					value={this.state.fullname}
 					placeholder="Full Name*"
 					className="login-email-input login-input"
 				/>
@@ -193,7 +200,7 @@ class Register extends Component {
 					name="username"
 					onChange={this.handleChange}
 					type="text"
-					autoComplete="off"
+					value={this.state.username}
 					placeholder="Username*"
 					className="login-pass-input login-input"
 				/>
@@ -201,7 +208,7 @@ class Register extends Component {
 					name="email"
 					onChange={this.handleChange}
 					type="email"
-					autoComplete="off"
+					value={this.state.email}
 					placeholder="Email*"
 					className="login-email-input login-input"
 				/>
@@ -210,7 +217,7 @@ class Register extends Component {
 					name="password"
 					onChange={this.handleChange}
 					type="password"
-					autoComplete="off"
+					value={this.state.password}
 					placeholder="Password*"
 					className="login-pass-input login-input"
 				/>

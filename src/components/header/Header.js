@@ -31,7 +31,7 @@ const Header = () => {
 			<ul className="navbar-nav">
 				<li class="logo">
 					<a
-						href="https://https://sobhanbera.github.io/telebyteweb"
+						href="https://sobhanbera.github.io/telebyteweb"
 						class="nav-link"
 					>
 						<span class="link-text logo-text">Telebyte</span>
@@ -61,7 +61,7 @@ const Header = () => {
 					</a>
 				</li>
 				<li className="nav-item">
-					<Link to="/home" className="nav-link">
+					<Link to="/telebyteweb/home" className="nav-link">
 						<svg
 							aria-hidden="true"
 							focusable="false"
@@ -82,7 +82,7 @@ const Header = () => {
 					</Link>
 				</li>
 				<li className="nav-item">
-					<Link to="/profile" className="nav-link">
+					<Link to="/telebyteweb/profile" className="nav-link">
 						<svg
 							aria-hidden="true"
 							focusable="false"
@@ -103,7 +103,7 @@ const Header = () => {
 					</Link>
 				</li>
 				<li className="nav-item">
-					<Link to="/search" className="nav-link">
+					<Link to="/telebyteweb/search" className="nav-link">
 						<svg
 							aria-hidden="true"
 							focusable="false"
@@ -124,7 +124,7 @@ const Header = () => {
 					</Link>
 				</li>
 				<li className="nav-item">
-					<Link to="/chats" className="nav-link">
+					<Link to="/telebyteweb/chats" className="nav-link">
 						<svg
 							aria-hidden="true"
 							focusable="false"
@@ -145,7 +145,7 @@ const Header = () => {
 					</Link>
 				</li>
 				<li className="nav-item">
-					<Link to="/about" className="nav-link">
+					<Link to="/telebyteweb/about" className="nav-link">
 						<svg
 							aria-hidden="true"
 							focusable="false"
