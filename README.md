@@ -25,20 +25,21 @@ If anyone has any feature recommendation he / she / they can recommend those fea
 - Fork this repository.
 - Clone the repository to your local computer.
 
-    <code>
-        git clone https://github.com/Your_Github_Username/telebyteweb.git
-    </code>
-
+```
+    git clone https://github.com/Your_Github_Username/telebyteweb.git
+```
 - Install all dependencies.
-
-    <code>
-        npm install
-    </code>
-
+```
+    npm install
+```
 - Start localserver.
-    
-    <code>
-        npm start
-    </code>
-
+```    
+    npm start
+```
 - Runs the app in the development mode. Open http://localhost:3000 to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
+-After completing the issue do this.
+
+```
+    git add .
+    git push
+```
