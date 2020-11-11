@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/telebyteweb/static/css/main.6799bdf9.chunk.css",
-    "main.js": "/telebyteweb/static/js/main.75a5d308.chunk.js",
-    "main.js.map": "/telebyteweb/static/js/main.75a5d308.chunk.js.map",
-    "runtime-main.js": "/telebyteweb/static/js/runtime-main.01f90255.js",
-    "runtime-main.js.map": "/telebyteweb/static/js/runtime-main.01f90255.js.map",
-    "static/js/2.65dc5636.chunk.js": "/telebyteweb/static/js/2.65dc5636.chunk.js",
-    "static/js/2.65dc5636.chunk.js.map": "/telebyteweb/static/js/2.65dc5636.chunk.js.map",
-    "static/js/3.d2a99a91.chunk.js": "/telebyteweb/static/js/3.d2a99a91.chunk.js",
-    "static/js/3.d2a99a91.chunk.js.map": "/telebyteweb/static/js/3.d2a99a91.chunk.js.map",
+    "main.css": "/telebyteweb/static/css/main.bd6a9446.chunk.css",
+    "main.js": "/telebyteweb/static/js/main.9d4419ee.chunk.js",
+    "main.js.map": "/telebyteweb/static/js/main.9d4419ee.chunk.js.map",
+    "runtime-main.js": "/telebyteweb/static/js/runtime-main.519d5f3e.js",
+    "runtime-main.js.map": "/telebyteweb/static/js/runtime-main.519d5f3e.js.map",
+    "static/js/2.5547f0f9.chunk.js": "/telebyteweb/static/js/2.5547f0f9.chunk.js",
+    "static/js/2.5547f0f9.chunk.js.map": "/telebyteweb/static/js/2.5547f0f9.chunk.js.map",
+    "static/js/3.643804a9.chunk.js": "/telebyteweb/static/js/3.643804a9.chunk.js",
+    "static/js/3.643804a9.chunk.js.map": "/telebyteweb/static/js/3.643804a9.chunk.js.map",
     "index.html": "/telebyteweb/index.html",
-    "static/css/main.6799bdf9.chunk.css.map": "/telebyteweb/static/css/main.6799bdf9.chunk.css.map",
-    "static/js/2.65dc5636.chunk.js.LICENSE.txt": "/telebyteweb/static/js/2.65dc5636.chunk.js.LICENSE.txt",
-    "static/media/Main.css": "/telebyteweb/static/media/material03.26445787.png"
+    "static/css/main.bd6a9446.chunk.css.map": "/telebyteweb/static/css/main.bd6a9446.chunk.css.map",
+    "static/js/2.5547f0f9.chunk.js.LICENSE.txt": "/telebyteweb/static/js/2.5547f0f9.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/telebyteweb/static/media/material03.26445787.png",
+    "static/media/error404.cea49126.gif": "/telebyteweb/static/media/error404.cea49126.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.01f90255.js",
-    "static/js/2.65dc5636.chunk.js",
-    "static/css/main.6799bdf9.chunk.css",
-    "static/js/main.75a5d308.chunk.js"
+    "static/js/runtime-main.519d5f3e.js",
+    "static/js/2.5547f0f9.chunk.js",
+    "static/css/main.bd6a9446.chunk.css",
+    "static/js/main.9d4419ee.chunk.js"
   ]
 }
