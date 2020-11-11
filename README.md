@@ -27,12 +27,15 @@ If anyone has any feature recommendation he / she / they can recommend those fea
 <code>
   git clone https://github.com/Your_Github_Username/telebyteweb.git
 </code>
+
 - Install all dependencies.
 <code>
 npm install
 </code>
+
 - Start localserver.
 <code>
 npm start
 </code>
+
 - Runs the app in the development mode. Open http://localhost:3000 to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
