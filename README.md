@@ -43,3 +43,6 @@ If anyone has any feature recommendation he / she / they can recommend those fea
     git add .
     git push
 ```
+- Now create a pull request.
+- You have done it. You have finally contributed to this repository.
+- Thanks for contributing.
