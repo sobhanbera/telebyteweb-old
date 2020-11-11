@@ -50,7 +50,7 @@ class MainApp extends Component {
 						<Route exact path="/telebyteweb" component={Home} />
 
 						<Route exact path="/" component={Home} />
-
+						{/* For all other links which are not the part of this website will redirect to PageNotFound Page */}
 						<Route path="*" component={PageNotFound} />
 					</Switch>
 				</main>
