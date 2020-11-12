@@ -162,6 +162,7 @@ function Cards() {
 								className="ahref"
 								href="https://github.com/SobhanBera/telebyteweb"
 								target="_blank"
+								rel="noreferrer"
 							>
 								GitHub Repo
 							</a>{" "}
