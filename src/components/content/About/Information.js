@@ -47,7 +47,7 @@ function Info() {
 				</p>
 				<img
 					className="secimginfo"
-					alt="This is a image of a Person doing programming."
+					alt="Person doing programming."
 					src="https://raw.githubusercontent.com/SobhanBera/SobhanBera/master/programming_all_day_gif.gif"
 				></img>
 			</div>
