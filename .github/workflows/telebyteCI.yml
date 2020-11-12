@@ -1,4 +1,5 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+#         node-version: [10.x, 12.x, 14.x]
 
 name: Telebyte Web CI
 
@@ -15,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x]
+        node-version: [10.x]
 
     steps:
     - uses: actions/checkout@v2
