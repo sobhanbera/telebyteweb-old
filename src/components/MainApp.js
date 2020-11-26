@@ -15,43 +15,21 @@ class MainApp extends Component {
 		return (
 			<div>
 				<Header />
-				<main className="mainContent">
+				<main className='mainContent'>
 					<Switch>
-						<Route
-							exact
-							path="/telebyteweb/about"
-							component={AboutSection}
-						/>
+						<Route exact path='/about' component={AboutSection} />
 
-						<Route
-							exact
-							path="/telebyteweb/search"
-							component={Search}
-						/>
+						<Route exact path='/search' component={Search} />
 
-						<Route
-							exact
-							path="/telebyteweb/profile"
-							component={Profile}
-						/>
+						<Route exact path='/profile' component={Profile} />
 
-						<Route
-							exact
-							path="/telebyteweb/chats"
-							component={ChatTab}
-						/>
+						<Route exact path='/chats' component={ChatTab} />
 
-						<Route
-							exact
-							path="/telebyteweb/home"
-							component={Home}
-						/>
+						<Route exact path='/home' component={Home} />
 
-						<Route exact path="/telebyteweb" component={Home} />
-
-						<Route exact path="/" component={Home} />
+						<Route exact path='/' component={Home} />
 						{/* For all other links which are not the part of this website will redirect to PageNotFound Page */}
-						<Route path="*" component={PageNotFound} />
+						<Route path='*' component={PageNotFound} />
 					</Switch>
 				</main>
 			</div>

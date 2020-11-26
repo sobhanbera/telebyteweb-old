@@ -1,14 +1,14 @@
 import "./App.css";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import MainApp from "./components/MainApp";
 
 function App() {
 	return (
-		<BrowserRouter>
-			<div className="App">
+		<HashRouter>
+			<div className='App'>
 				<MainApp />
 			</div>
-		</BrowserRouter>
+		</HashRouter>
 	);
 }
 
