@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/telebyteweb/static/css/main.6aa060d4.chunk.css",
-    "main.js": "/telebyteweb/static/js/main.810510ec.chunk.js",
+    "main.js": "/telebyteweb/static/js/main.b2fca613.chunk.js",
     "runtime-main.js": "/telebyteweb/static/js/runtime-main.519d5f3e.js",
     "static/js/2.318bcf36.chunk.js": "/telebyteweb/static/js/2.318bcf36.chunk.js",
     "static/js/3.643804a9.chunk.js": "/telebyteweb/static/js/3.643804a9.chunk.js",
@@ -14,6 +14,6 @@
     "static/js/runtime-main.519d5f3e.js",
     "static/js/2.318bcf36.chunk.js",
     "static/css/main.6aa060d4.chunk.css",
-    "static/js/main.810510ec.chunk.js"
+    "static/js/main.b2fca613.chunk.js"
   ]
 }
