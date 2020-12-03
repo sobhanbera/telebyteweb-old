@@ -23,7 +23,8 @@
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
-		"build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
+		"build": "GENERATE_SOURCEMAP=false react-scripts build",
+		"winBuild": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},
@@ -51,3 +52,4 @@
 	"author": "Sobhan Bera",
 	"license": "ISC"
 }
+//		"build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
