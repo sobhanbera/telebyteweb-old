@@ -1,3 +1,5 @@
+# This Project is deprecated (old).
+
 # Features
 - ### Current features
     - Global public chating (Currently one group is available).
