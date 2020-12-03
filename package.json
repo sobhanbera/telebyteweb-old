@@ -20,12 +20,10 @@
 		"zxcvbn": "^4.4.2"
 	},
 	"scripts": {
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"dev": "BROWSER=none react-scripts start",
+    		"build": "react-scripts build",
+    		"test": "react-scripts test",
+    		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
 		"extends": [
