@@ -51,4 +51,3 @@
 	"author": "Sobhan Bera",
 	"license": "ISC"
 }
-//		"build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
